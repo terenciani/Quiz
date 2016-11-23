@@ -1,4 +1,6 @@
 ﻿<?php
+	include 'include/protecao.php';
+
 	
 	$questao = $_POST['questao'];
 	$enunciado = $_POST['enunciado'];

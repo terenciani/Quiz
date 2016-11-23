@@ -1,4 +1,5 @@
-﻿<html lang="pt-br">
+﻿<?php include 'include/protecao.php'; ?>
+<html lang="pt-br">
 <head>
 <meta charset="utf-8">
 <title>Lista de Questões</title>
@@ -62,6 +63,9 @@
 			</div>
 			<footer class="row footer">
 				<a href="inscricao-questao.html"> Clique aqui para cadastrar uma nova questão</a>
+				<br />
+				<a href="site.php">Voltar para a página inicial</a>
+				<br />	
 			</footer>
 		</section>
 		
